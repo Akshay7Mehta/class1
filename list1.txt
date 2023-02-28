@@ -1,6 +1,7 @@
+Project Collaborators
 Akshay Mehta
 Amogh Handa
 Anand Kaushik
-Rock,paper & scissor Game
+Amitesh Aggarwal
 
 
