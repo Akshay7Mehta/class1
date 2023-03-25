@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # coding: utf-8
 
@@ -6,8 +5,6 @@
 
 
 # import random module
-=======
->>>>>>> df07914578fb239d2c2d0143b725c985bdf62d9f
 import random
 # print multiline instruction
 # performstring concatenation of string
