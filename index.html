@@ -6,46 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS game</title>
+    <style>
+        .button {
+            background-color: #f6f7fa;
+            border: none;
+            color: rgb(244, 9, 9);
+
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 30px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 2.5%;
+            width: 300px;
+        }
+    </style>
 </head>
 
-<body style="background-color:powderblue;">
-    <h1>Rock,Paper & Scissors</h1>
+<body style="background-color:rgb(7, 3, 43);color:aliceblue">
+    <h1 style="font-size: 40px;">Rock,Paper & Scissors</h1>
     <p>PLAY THE GAME ONLINE</p>
 
 
-    <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors">Know More About The Game</a>
 
-    <pre>
-                                                    <img src="https://wl-5minutecrafts.cf.tsp.li/resize/728x/jpg/24a/13c/aa21a650d2a12bc5b573e82b74.jpg"width=400
-                                                    alt="Please make sure you are connected to internet">
-    <hr>
-    <hr>
-    <hr>
-    </pre>
+
+
+    <img src="https://wl-5minutecrafts.cf.tsp.li/resize/728x/jpg/24a/13c/aa21a650d2a12bc5b573e82b74.jpg" width=400
+        alt="Please make sure you are connected to internet">
+    <br><br>
+    <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors">
+        <p style="color:rgb(166, 25, 25);font-size: 30px;">Know More About The Game</p>
+    </a>
+
+
     <!-- <img src="Rps.jpg" alt="Please make sure you are connected to internet"> -->
     <div>
-        <h3>Signup Here</h3>
+        <h3 style="font-size: 25px;">Login Here</h3>
         <form action="form.php">
+            <p>Enter Your Name:</p>
+            <input type="text" placeholder="Enter your name" size="40">
 
-            <input type="text" placeholder="Enter your name">
 
-            <p>Choose Your Gender </p>
 
-            <label>
-                <input type="radio" name="Gender 1" value="Here">male
-                <input type="radio" name="Gender 2" value="Here">female
-            </label>
+
             <br>
-            <p>Enter Your Birth Date</p><br>
-            <input type="date" id="start" name="trip-start" value="2010-07-22" min="1960-01-01" max="2025-12-31">
-            <p>Enter Your Gmail</p>
-            <input type="email" id="email" pattern=".+@gmail\.com" size="30" required>
-            <p>Setup your Password</p>
-            <input type="text" placeholder="Enter Password"><br>
+
+            <p>Enter your Password:</p>
+            <input type="text" placeholder="Enter Password" size="40"><br>
             <br>
-            <input type="text" placeholder="confirm Password">
+
 
         </form>
+
+
+        <br>
+        <button class="button"><a href="list1.html"> Log in</a></button>
     </div>
 
 </body>
