@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # coding: utf-8
 
@@ -5,6 +6,8 @@
 
 
 # import random module
+=======
+>>>>>>> df07914578fb239d2c2d0143b725c985bdf62d9f
 import random
 # print multiline instruction
 # performstring concatenation of string
@@ -97,10 +100,11 @@ while True:
         print("<== Computer wins ==>")
     print("Do you want to play again? (Y/N)")
     # if user input n or N then condition is True
-    ans = input().lower
+    ans = input()
+	
     if ans =='n':
         break
 # after coming out of the while loop
 # we print thanks for playing
 print("thanks for playing")
-
+input()
