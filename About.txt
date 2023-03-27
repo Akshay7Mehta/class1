@@ -17,4 +17,4 @@ Rock, paper, scissors is an example of a zero-sum game without perfect informati
  1 represents a win for player 1, 0 a tie, and -1 a loss for player 1. 
 So, for instance, the upper left entry is a 0 because if both players display rocks, they tie.
  The upper middle entry is a -1 because if player 1 displays a rock and player 2 displays paper, player 2 wins, and therefore, player 1 loses.
-Amitesh Aggarwal
+~Amitesh Aggarwal
